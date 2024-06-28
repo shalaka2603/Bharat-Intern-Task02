@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1>Weather App</h1>
+            <div class="weather-info">
+                <input type="text" id="city-name" placeholder="Enter city name">
+                <button id="get-weather">Get Weather</button>
+                <button id="current-location">Current Location</button>
+                <p class="instructions">Enter the name of a city to get the current weather and 7-day forecast.</p>
+                <div id="quick-links">
+                    <button class="city-button">Mumbai</button>
+                    <button class="city-button">Delhi</button>
+                    <button class="city-button">Bengaluru</button>
+                    <button class="city-button">Kolkata</button>
+                </div>
+                <div id="weather-result" class="weather-result"></div>
+                <div id="forecast" class="forecast"></div>
+                <div id="weather-cards"></div>
+            </div>  
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

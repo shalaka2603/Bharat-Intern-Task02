@@ -1,0 +1,91 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('./bgi.jpg') no-repeat center center fixed;
+    background-size: cover;
+    transition: background 0.5s ease;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0);
+    padding: 5px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+    width: 750px;
+}
+
+.weather-info {
+    margin-bottom: 20px;
+}
+
+#city-name {
+    padding: 7px;
+    width: 200px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+#get-weather, #current-location, .city-button {
+    padding: 10px 20px;
+    background-color: rgb(41, 43, 44);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#get-weather:hover, #current-location:hover, .city-button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.instructions {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.weather-result, .forecast {
+    margin-top: 20px;
+}
+
+.weather-result p, .forecast p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+.forecast {
+    width: 100%;
+    margin: auto;
+}
+
+#weather-cards {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.weather-cards {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+}
+
+.weather-icon {
+    width: 60px;
+    height: 60px;
+}
